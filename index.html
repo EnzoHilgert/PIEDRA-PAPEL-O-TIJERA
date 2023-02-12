@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIÑO RATA LOLERO</title>
+    <link rel="stylesheet" href="./CSS/principal.css"
+</head>
+<body>
+    <header>
+        <h1>MALPHITE, TEEMO O GWEN</h1>
+        <p>POR ORDENES DE NICO</p>
+    </header>
+    <main>
+        <p class="instrucciones" id="instrucciones">
+            <b>MALP=PIEDRA TEEMO=PAPEL GWEN=TIJERAS</b>
+        </p>
+        <div class="marcador">
+            <b><p class="nombre nombre-jugador">Jugador</p></b>
+            <b><p class="nombre nombre-computadora">Computadora</p></b>
+            <b><p class="puntos">
+                <span id="puntos-usuario">0</span>
+                <span>-</span>
+                <span id="puntos-computadora">0</span>
+            </p></b>
+        </div>
+        <div class="elegi-tu-arma" id="elegi-tu-arma">
+            <h2>Elegi algo loco dale</h2>
+            <div class="armas">
+                <button class="arma" id="malphite"><img src="https://static.wikia.nocookie.net/leagueoflegends/images/1/1b/Malphite_Render.png/revision/latest?cb=20210521171852" style="width: 135px;" alt="Logo"></button>
+                <button class="arma" id="teemo"><img src="https://www.pngitem.com/pimgs/m/19-195217_-league-of-legends-teemo-png-transparent-png.png" style="width: 110px;" alt="Logo"></button>
+                <button class="arma" id="gwen"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/77ba0138-bccf-4d19-ad78-1b049b2d741b/dewpr5i-4d12bd86-175d-494c-93c7-2675ffbc6eea.png" style="width: 210px;"="Logo"></button>
+            </div>
+        </div>
+        <div class="mensaje disabled"  id="mensaje">
+            <p>
+               <b> Usaste <span class="eleccion" id="eleccion-usuario"> Duro como la piedra</span><br>
+                y la computadora uso <span class="eleccion" id="eleccion-computadora">Frente en alto, espalda recta, tijeras listas</span>    
+            </p></b>
+            <p id="gana-punto">Ganaste y ni sabes como, anda paya bobo</p>
+        </div>
+        <button class="btn disabled" id="reiniciar">Jugate otra, me costo mucho esto</button>
+    </main>
+    <script src="./JS/principal.js"></script>
+    
+</body>
+</html>

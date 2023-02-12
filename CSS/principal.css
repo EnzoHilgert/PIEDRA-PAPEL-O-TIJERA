@@ -1,0 +1,109 @@
+*{
+    font-family: 'Caveat', cursive;
+font-family: 'Source Code Pro', monospace;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body {
+background: #2D683F;
+color: beige;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color:beige;
+    color: #2D683F;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+.btn {
+    border: 0;
+    line-height: 1;
+    background-color: beige;
+    color: #5E2D68;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+.instrucciones {
+    margin-bottom: 2rem;
+}
+.marcador {
+    background-color: #5E2D68;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    position: relative;
+    font-weight: 600;
+    margin-bottom: 2rem; 
+}
+.marcador .nombre {
+    position: absolute;
+    color: beige;
+    background-color: #2D683F;
+    line-height: 1;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid #5E2D68;
+    
+}
+.marcador .nombre-jugador {
+    right: 80%;
+}
+.marcador .nombre-computadora {
+    left: 80%;
+}
+.marcador .puntos {
+    font-size: 1.7rem
+}
+.elegi-tu-arma {
+    margin-bottom: 2rem;
+}
+.elegi-tu-arma h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+.armas {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.arma {
+    font-size: 2rem;
+    background-color: beige;
+    border: 1;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+.mensaje {
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+.mensaje .eleccion {
+    color: #5E2D68;
+    background-color: beige;
+    border-radius: 0.25rem;
+    padding-inline: 0.25rem;
+}
+
+.disabled {
+    display: none;
+}
